@@ -1,8 +1,8 @@
 let listaDeNumerosSorteados = [];
-let numeroLimite = 10;
+let numeroLimite = 100;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
-let textop = `Digite um número entre 1 e 10`;
+let textop = `Digite um número entre 1 e 100`;
 let textoh1 = `Adivinhe o número!`;
 
 function exibirTextoNaTela(tag,texto) {
